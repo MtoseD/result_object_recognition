@@ -1,6 +1,6 @@
 <?php
 //connect to dabase
-$conn = mysqli_connect('192.168.178.57', 'phpUser', 'WebsiteConnector03', 'dbObjectRecognition');
+$conn = mysqli_connect('XXX.XXX.XXX.XXX', 'XXX', 'XXXXXX', 'dbObjectRecognition');
 
 //check conncection
 if (!$conn) {
@@ -29,7 +29,7 @@ mysqli_close($conn);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M126 - Objekterkennung</title>
+    <title>Objekterkennung</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -77,7 +77,7 @@ mysqli_close($conn);
             </tbody>
 
         </table>
-        <p class="endnote">M126: Projektarbeit von Mike Dätwyler und Moritz Rast</p>
+        <p class="endnote">Resultate der Objekterkennung - Mike Dätwyler</p>
     </div>
 
 
