@@ -1,6 +1,6 @@
 <?php
-//connect to dabase
-$conn = mysqli_connect('XXX.XXX.XXX.XXX', 'XXX', 'XXXXXX', 'dbObjectRecognition');
+//connect to database
+$conn = mysqli_connect('dbServer', 'user', 'password', 'dbObjectRecognition'); //fill in your information
 
 //check conncection
 if (!$conn) {
